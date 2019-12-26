@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:seeu/Tabs/home.dart';
 import 'package:seeu/Tabs/news.dart';
 import 'package:seeu/Tabs/setting.dart';
+import 'package:seeu/Verify/regist.dart';
 
 final routes = {
+  '/':(context) => RegistPage(),
   '/tabs/home':(context) => HomePage(),
   '/tabs/news':(context) => NewsPage(),
   '/tabs/setting':(context) => SettingPage()
